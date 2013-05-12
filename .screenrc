@@ -43,9 +43,8 @@ bindkey -k F2 lockscreen
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
 
 
-screen -t '0 -x-x-'
-screen -t '1 ack @_@'
-screen -t '2 o_O->->'
-screen -t '3 <-<-0_o'
-screen -t '4 <-o_o->'
-screen -t '5 <{:}><'
+screen -t '[>_<]'
+screen -t '[@_@]'
+screen -t '[0_o]'
+screen -t '[ack]'
+screen -t '[term]'
