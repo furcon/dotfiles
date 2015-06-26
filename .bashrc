@@ -101,3 +101,5 @@ fi
 fi
 export PATH=$PATH:/etc/alternatives/gem-bin
 
+# utf8 support for less
+export LESSCHARSET=utf-8
